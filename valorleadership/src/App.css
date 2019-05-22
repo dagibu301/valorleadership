@@ -1,33 +1,60 @@
-.App {
-  text-align: center;
+
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.navbar-dark {
+    border-bottom: 0.5rem  solid white;
+    background: rgb(2,104,80);
+background: linear-gradient(180deg, rgba(2,104,80,1) 44%, rgba(60,144,137,1) 100%);
 }
 
-.App-link {
-  color: #61dafb;
+.bg-secondary{
+  background-color: 	#398B7C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerSeparator{
+  color: #026850;
+
+}
+
+.home-background{
+  background: rgb(8,120,96);
+  background: linear-gradient(90deg, rgba(8,120,96,1) 55%, rgba(221,225,228,1) 58%);
+
+}
+
+.homebackcontainer{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homebody{
+  padding: 1rem;
+  background: rgb(255,255,255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.innerhomebody{
+  margin-top: -1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homelist{
+  list-style-type:none;
+}
+
+.homelist > * {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
