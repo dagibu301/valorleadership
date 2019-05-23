@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
+import ValorProfessionals from './ValorProfessionalsComponent';
+import HowWeHelpYou from './HowWeHelpYouComponent';
+import ProfessionalServices from './ProfessionalServicesComponent';
+import IndustriesServed from './IndustriesServedComponent';
+import Awards from './AwardsComponent';
+import ContactUs from './ContactUsComponent';
 import {Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class Main extends Component {
@@ -12,7 +18,12 @@ class Main extends Component {
         <div>
           <Switch>
               <Route path='/home' component={Home} />
-
+              <Route path='/ValorProfessionals' component={ValorProfessionals} />
+              <Route path='/HowWeHelpYou' component={HowWeHelpYou} />
+              <Route path='/ProfessionalServices' component={ProfessionalServices} />
+              <Route path='/IndustriesServed' component={IndustriesServed} />
+              <Route path='/Awards' component={Awards} />
+              <Route path='/ContactUs' component={ContactUs} />
           </Switch>
         </div>
       </div>
@@ -22,4 +33,4 @@ class Main extends Component {
 
 }
 
-export default Main;
+export default withRouter(Main);

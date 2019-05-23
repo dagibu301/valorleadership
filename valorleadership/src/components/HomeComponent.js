@@ -15,7 +15,7 @@ function Home() {
         <div className="container homebody">
           <div className="container innerhomebody">
             <div className="row ">
-              <div className="col-sm-8">
+              <div className="col-md-8">
                 <ul className="homelist">
                   <li><span className="fa fa-check fa-lg"></span>  We operate with complete integrity, and display our commitment to excellence in everything we do.</li>
                   <li><span className="fa fa-check fa-lg"></span>  We deliver high added value. We will not accept an assignment unless we can do so and we have
@@ -31,7 +31,7 @@ function Home() {
 
                 <p className="ml-4">In these times of rapid change and new challenges, the skill and depth of experience of Valor Leadership Partners will yield the value and results you need. We are able to move quickly and decisively, so contact us today.</p>
               </div>
-              <div className="col-sm-4">
+              <div className="col-md-4 mb-4">
               <Card>
                 <CardHeader className="bg-secondary text-white">Recent Engagements</CardHeader>
                 <CardBody>
@@ -47,6 +47,64 @@ function Home() {
               </Card>
               </div>
             </div>
+
+            <div className="row ">
+              <div className="offset-md-5 col-12">
+                <h3>Professional Services</h3>
+              </div>
+            </div>
+
+            <div className="row ">
+              <div className="col-12 offset-md-1 col-md-5 mb-5 mt-3">
+                  <a role="button" className="btn btn-info btn-block btn-lg " href="/home"><i className="fa fa-briefcase"></i> Restructuring Services </a>
+                  <a role="button" className="btn btn-info btn-block btn-lg" href="/home"><i className="fa fa-random"></i> Turnaround Consulting </a>
+                  <a role="button" className="btn btn-info btn-block btn-lg" href="/home"><i className="fa fa-search"></i> Lender Consulting </a>
+                  <a role="button" className="btn btn-info btn-block btn-lg" href="/home"><i className="fa fa-address-card"></i> Consulting to Other Stakeholders </a>
+              </div>
+              <div className="col-12 col-md-5 mb-5 mt-3">
+                  <a role="button" className="btn btn-info btn-block btn-lg" href="/home"><i className="fa fa-arrow-circle-up"></i> High Growth Services </a>
+                  <a role="button" className="btn btn-info btn-block btn-lg" href="/home"><i className="fa fa-star"></i> Consulting for Start Up Companies </a>
+                  <a role="button" className="btn btn-info btn-block btn-lg" href="/home"><i className="fa fa-arrow-circle-up"></i> Consulting for Accelerated Growth </a>
+                  <a role="button" className="btn btn-info btn-block btn-lg" href="/home"><i className="fa fa-crosshairs"></i> Consulting for Mission and Strategy </a>
+              </div>
+            </div>
+
+            <div className="row ">
+              <div className="offset-md-5 col-12">
+                <h3>How we help you</h3>
+              </div>
+            </div>
+
+            <div className="row ">
+              <div className="col-12 d-flex justify-content-center mb-2">
+                <div className="btn-group" role="group">
+                  <a role="button" className="btn btn-info btn-lg" href="/home"><i className="fa fa-gavel"></i> Lawyers </a>
+                  <a role="button" className="btn btn-info btn-lg" href="/home"><i className="fa fa-sticky-note"></i> Private
+                    Equity </a>
+                </div>
+              </div>
+            </div>
+
+              <div className="row">
+                  <div className="col-12 d-flex justify-content-center mb-2">
+                    <div className="btn-group" role="group">
+                      <a role="button" className="btn btn-info btn-lg" href="/home"><i className="fa fa-credit-card"></i> Creditors
+                        & Lenders </a>
+                    </div>
+                  </div>
+              </div>
+
+              <div className="row">
+                  <div className="col-12 d-flex justify-content-center mb-2">
+                    <div className="btn-group" role="group">
+                      <a role="button" className="btn btn-info btn-lg" href="/home"><i className="fa fa-briefcase"></i> Corporate
+                        Executives </a>
+                    </div>
+                  </div>
+              </div>
+
+
+
           </div>
         </div>
       </div>

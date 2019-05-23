@@ -15,7 +15,15 @@
 .navbar-dark {
     border-bottom: 0.5rem  solid white;
     background: rgb(2,104,80);
-background: linear-gradient(180deg, rgba(2,104,80,1) 44%, rgba(60,144,137,1) 100%);
+    background: linear-gradient(180deg, rgba(2,104,80,1) 44%, rgba(60,144,137,1) 100%);
+    font-size: 1.1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+NavItem.navhead:active{
+  background-color:#3369ff!important;
+
 }
 
 .bg-secondary{
@@ -57,4 +65,9 @@ background: linear-gradient(180deg, rgba(2,104,80,1) 44%, rgba(60,144,137,1) 100
 .homelist > * {
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+.btn-info{
+  background-color: rgba(8,120,96,1);
+
 }
