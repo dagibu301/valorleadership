@@ -7,6 +7,7 @@ import ProfessionalServices from './ProfessionalServicesComponent';
 import IndustriesServed from './IndustriesServedComponent';
 import Awards from './AwardsComponent';
 import ContactUs from './ContactUsComponent';
+import Footer from './FooterComponent';
 import {Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class Main extends Component {
@@ -25,6 +26,7 @@ class Main extends Component {
               <Route path='/Awards' component={Awards} />
               <Route path='/ContactUs' component={ContactUs} />
           </Switch>
+          <Footer />
         </div>
       </div>
     );

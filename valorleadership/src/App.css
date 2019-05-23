@@ -21,10 +21,6 @@
     vertical-align: middle;
 }
 
-NavItem.navhead:active{
-  background-color:#3369ff!important;
-
-}
 
 .bg-secondary{
   background-color: 	#398B7C;

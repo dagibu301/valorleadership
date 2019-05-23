@@ -30,25 +30,25 @@ class Header extends Component {
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
               <Nav  navbar >
-                <NavItem className="mr-3 navhead">
+                <NavItem className="mr-4 navhead">
                   <NavLink className="nav-link"  to='/home'><span className="fa fa-homea fa-lg"></span> Home </NavLink>
                 </NavItem>
-                <NavItem className="mr-3">
+                <NavItem className="mr-4">
                   <NavLink className="nav-link"  to='/ValorProfessionals'><span className="fa fa-homea fa-lg"></span> Valor Professionals </NavLink>
                 </NavItem>
-                <NavItem className="mr-3">
+                <NavItem className="mr-4">
                   <NavLink className="nav-link"  to='/HowWeHelpYou'><span className="fa fa-homea fa-lg"></span> How We Help You </NavLink>
                 </NavItem>
-                <NavItem className="mr-3">
+                <NavItem className="mr-4">
                   <NavLink className="nav-link"  to='/ProfessionalServices'><span className="fa fa-homea fa-lg"></span> Professional Services </NavLink>
                 </NavItem>
-                <NavItem className="mr-3">
+                <NavItem className="mr-4">
                   <NavLink className="nav-link"  to='/IndustriesServed'><span className="fa fa-homea fa-lg"></span> Industries Served</NavLink>
                 </NavItem>
-                <NavItem className="mr-3">
+                <NavItem className="mr-4">
                   <NavLink className="nav-link"  to='/Awards'><span className="fa fa-homea fa-lg"></span> Awards </NavLink>
                 </NavItem>
-                <NavItem className="mr-3">
+                <NavItem >
                   <NavLink className="nav-link"  to='/ContactUs'><span className="fa fa-homea fa-lg"></span> Contact Us </NavLink>
                 </NavItem>
               </Nav>
