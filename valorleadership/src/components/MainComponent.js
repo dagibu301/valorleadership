@@ -18,7 +18,8 @@ class Main extends Component {
         <Header />
         <div>
           <Switch>
-              <Route path='/home' component={Home} />
+              <Route exact path='/' component={Home} />
+              <Route exact path='/home' component={Home} />
               <Route path='/ValorProfessionals' component={ValorProfessionals} />
               <Route path='/HowWeHelpYou' component={HowWeHelpYou} />
               <Route path='/ProfessionalServices' component={ProfessionalServices} />

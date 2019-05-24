@@ -7,7 +7,14 @@ function Home() {
         <div className="container homebackcontainer">
           <div className="row align-items-start">
             <div className="col-12">
-              <Media object src='/index_14.jpg' alt='logo' />
+
+              <picture>
+                <source media="(max-width: 575px)" srcset="index_575.jpg" />
+                <source media="(max-width: 768px)" srcset="index_768.jpg" />
+                <source media="(max-width: 991px)" srcset="index_991.jpg" />
+                <source media="(max-width: 1199px)" srcset="index_1199.jpg" />
+                <img src="index_14.jpg" />
+              </picture>
             </div>
           </div>
         </div>
