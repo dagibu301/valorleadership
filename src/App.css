@@ -80,6 +80,20 @@
   transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 991px) {
+  .tittles-text{
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.nonestylelist{
+  list-style-type:none;
+}
+
+
 .tabs{
 
 }
