@@ -63,8 +63,9 @@
   margin-bottom: 2rem;
 }
 
-.btn-info{
-  background-color: rgba(8,120,96,1);
+.btn-light{
+  background-color: rgba(8,140,96,1);
+  color: white;
 }
 
 .tittles{
