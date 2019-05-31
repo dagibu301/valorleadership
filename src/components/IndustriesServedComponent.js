@@ -25,7 +25,34 @@ function IndustriesServed () {
 
         <div className="container homebody tabs">
           <div className="container innerhomebody">
-            <h2>Industries Served</h2>
+
+            <div className="row mt-4 ml-4 mr-4">
+
+              <div className="col-12 col-md-4">
+                <ul>
+                  <li>one</li>
+                  <li>two</li>
+                  <li>three</li>
+                </ul>
+              </div>
+
+              <div className="col-12 col-md-4">
+                <ul>
+                  <li>one</li>
+                  <li>two</li>
+                  <li>three</li>
+                </ul>
+              </div>
+
+              <div className="col-12 col-md-4">
+                <ul>
+                  <li>one</li>
+                  <li>two</li>
+                  <li>three</li>
+                </ul>
+              </div>
+
+            </div>
 
           </div>
         </div>
