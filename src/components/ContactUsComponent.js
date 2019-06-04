@@ -17,6 +17,7 @@ class ContactUs extends Component {
 
   handleSubmit(values) {
       console.log('Current State is: ' + JSON.stringify(values));
+
       alert('Current State is: ' + JSON.stringify(values));
   }
   render () {
@@ -67,7 +68,7 @@ class ContactUs extends Component {
               </div>
 
               <div className="row mt-4 ml-4 mr-4 ">
-                <div className="col-12 offset-md-1 col-md-10 mb-4 innerhomebody p-5">
+                <div className="col-12 offset-md-1 col-md-10 mb-4 innerhomebody border border-info rounded p-5  ">
                   <LocalForm onSubmit={(values) => this.handleSubmit(values)}>
 
 
