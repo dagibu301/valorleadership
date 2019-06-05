@@ -54,10 +54,10 @@ class ContactUs extends Component {
               </div>
 
               <div className="row mt-4 ml-4 mr-4">
-                <div className="col-4 col-md-3 col-lg-2 ml-4">
+                <div className="col-4 col-md-3 col-lg-2">
                   <img src="/assets/images/anthony_alaimo.jpg" alt="Anthony Alaimo" />
                 </div>
-                <div className="col-7 col-md-7 col-lg-4">
+                <div className="col-6 col-md-6 col-lg-4 ml-4">
                   <h2>Anthony Alaimo, CTP</h2>
                   <p>120 Millbrook Village Dr, Suite E, Tyrone, GA 30290</p>
 
